@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce707a75-0433-41fc-9183-635b6dfb33b0" name="Changes" comment="&lt;html&gt;&#10;&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmptyListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InvalidIndexException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectNotFoundException.java" afterDir="false" />
+    <list default="true" id="ce707a75-0433-41fc-9183-635b6dfb33b0" name="Changes" comment="refuckulated the carbonator">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -62,7 +52,16 @@
       <updated>1668106363258</updated>
       <workItem from="1668106364916" duration="3410000" />
       <workItem from="1668618927381" duration="105000" />
+      <workItem from="1668783829341" duration="4873000" />
     </task>
+    <task id="LOCAL-00001" summary="refuckulated the carbonator">
+      <created>1668783929127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783929127</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;html&gt;&#10;&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;html&gt;&#10;&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" />
+    <MESSAGE value="refuckulated the carbonator" />
+    <option name="LAST_COMMIT_MESSAGE" value="refuckulated the carbonator" />
   </component>
 </project>
