@@ -1,14 +1,14 @@
-public class LinkedList {
-    private Element firstElement;
-    private Element lastElement;
+public class LinkedList <V>{
+    private Element<V> firstElement;
+    private Element<V> lastElement;
 
     public LinkedList() {
         firstElement = null;
         lastElement = null;
     }
 
-    public void insertFirst(Object obj) {
-        Element element = new Element(obj);
+    public void insertFirst(V value) {
+        Element<V> element = new Element<>(value);
         element.setNextElement(firstElement);
         firstElement = element;
         if (lastElement == null) {
@@ -17,8 +17,8 @@ public class LinkedList {
 
     }
 
-    public void insertLast(Object obj) {
-        Element element = new Element(obj);
+    public void insertLast(V value) {
+        Element<V> element = new Element<>(value);
         if (lastElement != null) {
             lastElement.setNextElement(element);
         }
@@ -29,9 +29,9 @@ public class LinkedList {
     }
 
     public void print() {
-        Element element = firstElement;
+        Element<V> element = firstElement;
         while (element != null) {
-            System.out.println(element.getObject());
+            System.out.println(element.getValue());
             element.getNextElement();
         }
     }
@@ -40,7 +40,7 @@ public class LinkedList {
         return firstElement == null;
     }
 
-    public void removeObject(Object object) throws ObjectNotFoundException, EmptyListException {
+    public void removeValue(V value) throws ValueNotFoundException, EmptyListException {
         if (isEmpty()) {
             throw new EmptyListException("La lista ta vacia");
         }
@@ -48,7 +48,7 @@ public class LinkedList {
         Element temporal = firstElement;
 
         while (element != null) {
-            if (element.getObject().equals(object)) {
+            if (element.getValue().equals(value)) {
                 //Element next = element.getNext()
                 //temp.setNext(next)
                 temporal.setNextElement(element.getNextElement());
@@ -77,6 +77,22 @@ public class LinkedList {
         }
         throw new EmptyListException("objeto no encontrado");
 
+    }
+    @Override
+    public String toString() {
+        String s = "";
+        Element<V> element = firstElement;
+        boolean alreadyComma = false;
+        while (element != null) {
+            if (!alreadyComma) {
+                alreadyComma = true;
+            } else {
+                s += ", ";
+            }
+            s += element.getValue();
+            element = element.getNextElement();
+        }
+        return s;
     }
 
 

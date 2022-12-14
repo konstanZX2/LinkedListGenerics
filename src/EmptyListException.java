@@ -1,4 +1,4 @@
-public class EmptyListException extends ObjectNotFoundException{
+public class EmptyListException extends ValueNotFoundException {
 
     public EmptyListException(){
         super();
